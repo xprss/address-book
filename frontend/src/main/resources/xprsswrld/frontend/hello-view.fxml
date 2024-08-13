@@ -21,6 +21,6 @@
    <TextField prefHeight="26.0" prefWidth="208.0" promptText="Cognome" />
    <TextField prefHeight="26.0" prefWidth="208.0" promptText="Numero" />
 
-  <Label fx:id="welcomeText" />
+  <Label fx:id="savedLabel" />
   <Button onAction="#onHelloButtonClick" text="Salva contatto" />
 </VBox>
