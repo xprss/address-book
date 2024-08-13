@@ -5,11 +5,11 @@ import javafx.scene.control.Label;
 
 public class HelloController {
     @FXML
-    private Label welcomeText;
+    private Label savedLabel;
 
     @FXML
     protected void onHelloButtonClick() {
-        welcomeText.setText("Contatto salvato nella tua rubrica!");
+        savedLabel.setText("Contatto salvato nella tua rubrica!");
     }
 
 }
